@@ -4,6 +4,15 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+.env
+.env.*
+!.env.example
+
+/mvnw
+/mvnw.cmd
+/.mvn/wrapper/maven-wrapper.properties
+/src/main/webapp/META-INF/context.xml
+
 ### STS ###
 .apt_generated
 .classpath
